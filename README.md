@@ -22,7 +22,7 @@ Pandas中的DataFrame数据类型API函数参考手册 一
 
 目录
 > # 前言
-** Pandas 是一个专门用于数据处理和分析的 Python 库，它提供了众多强大的数据结构和函数，帮助用户更加轻松、高效地完成数据处理和分析任务。其中，DataFrame 数据类型是 Pandas 中非常重要的一种数据结构，可以方便地对二维表格数据进行操作、处理、统计和可视化等工作。**
+** Pandas 是一个专门用于数据处理和分析的 Python 库，它提供了众多强大的数据结构和函数，帮助用户更加轻松、高效地完成数据处理和分析任务。其中，DataFrame 数据类型是 Pandas 中非常重要的一种数据结构，可以方便地对二维表格数据进行操作、处理、统计和可视化等工作。 **
 
 Pandas 中 DataFrame 的一些特点和优势，比如：
 
@@ -32,7 +32,7 @@ Pandas 中 DataFrame 的一些特点和优势，比如：
 易于与其他 Python 库相集成使用，比如 NumPy、Matplotlib 等库。
 
 # 一、构造函数(Constructor)
-'''
+''' python
  DataFrame([data, index, columns, dtype, copy])
 ''' 
 #二维、大小可变、可能异构的表格数据。
